@@ -1,12 +1,9 @@
 {{# if @labs.subscribers }}
-  <div class="container">
-    <div class="row">
-      <div class="column small-12" id="subscribe">
-        <div class="subscribe-hold">
-          <span>Want the newsletter?</span>
-          {{ subscribe_form placeholder="your@email.com" autofocus="false" }}
-        </div>
-        <a href="https://feedly.com/i/subscription/feed/{{ url absolute="true" }}rss/" class="rss" target="_blank" rel="noopener">or subscribe via RSS...</a>
+  <div class="container" >
+    <div class="column small-12" id="subscribe">
+      <div class="subscribe-hold">
+        <span>Subscribe</span>
+        {{ subscribe_form placeholder="your@email.com" autofocus="false" }}
       </div>
     </div>
   </div>
